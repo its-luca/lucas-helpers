@@ -1,2 +1,4 @@
 build/
 .cache/
+subprojects/json-c-0.17
+subprojects/packagecache/

@@ -1,0 +1,3 @@
+- [ ] pre-commit hooks for formatting
+- [x] example for custom depdency
+- [ ] setup clangd
