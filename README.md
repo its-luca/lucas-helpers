@@ -1,3 +1,4 @@
-- [ ] pre-commit hooks for formatting
+- [x] pre-commit hooks for formatting
+    - using https://pre-commit.com
 - [x] example for custom depdency
-- [ ] setup clangd
+- [x] setup clangd
