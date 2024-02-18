@@ -5,3 +5,6 @@ project('lucas-helpers', 'c',
 library('lucas-helpers',
            'helpers.c',
            'proc_iomem_parser.c')
+
+pub_headers = ['helpers.h', 'proc_iomem_parser.h']
+install_headers(pub_headers, subdir: 'lucas-helpers')
