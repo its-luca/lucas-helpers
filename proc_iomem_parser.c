@@ -1,5 +1,5 @@
-#include "proc_iomem_parser.h"
-#include "helpers.h"
+#include "include/proc_iomem_parser.h"
+#include "include/helpers.h"
 #include <errno.h>
 #include <stdlib.h>
 #include <string.h>

@@ -6,5 +6,4 @@ library('lucas-helpers',
            'helpers.c',
            'proc_iomem_parser.c')
 
-pub_headers = ['helpers.h', 'proc_iomem_parser.h']
-install_headers(pub_headers, subdir: 'lucas-helpers')
+lucas_helpers_dep = declare_dependency(include_directories: 'include')
